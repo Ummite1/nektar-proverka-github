@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Меню - Кафе "Нектар"</title>
+	<link rel="icon" href="https://via.placeholder.com/30" type="image/x-icon">
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+	<style>
+		body {
+			font-family: 'Arial', sans-serif;
+			background-color: #f4f4f9;
+			color: #333;
+		}
+		.navbar {
+			background-color: #5d4037;
+		}
+		.navbar-brand, .nav-link {
+			color: #fff !important;
+		}
+		.navbar-brand:hover, .nav-link:hover {
+			color: #ffeb3b !important;
+		}
+		.menu-section {
+			padding: 50px 0;
+		}
+		.menu-section h2 {
+			color: #5d4037;
+			margin-bottom: 30px;
+		}
+		.menu-category {
+			margin-bottom: 50px;
+		}
+		.menu-category img {
+			max-width: 100%;
+			height: auto;
+		}
+		.menu-item {
+			background-color: #fff;
+			padding: 20px;
+			margin-bottom: 20px;
+			border-radius: 5px;
+		}
+		.menu-item h4 {
+			color: #5d4037;
+			margin-top: 0;
+		}
+		.menu-item p {
+			color: #777;
+		}
+		.footer {
+			background-color: #5d4037;
+			color: #fff;
+			padding: 20px 0;
+		}
+		.footer a {
+			color: #ffeb3b;
+			margin: 0 15px;
+		}
+		.footer a:hover {
+			color: #fff;
+		}
+	</style>
+</head>
+<body>
+	<!-- Шапка -->
+	<nav class="navbar navbar-expand-lg navbar-dark">
+		<a class="navbar-brand" href="index.html">
+			<img src="https://via.placeholder.com/30" alt="Логотип" style="height: 30px; margin-right: 10px;">
+			Кафе "Нектар"
+		</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNav">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="index.html">Главная</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="menu.html">Меню</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="about.html">О нас</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="contact.html">Контакты</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+	<!-- Меню -->
+	<div class="container menu-section">
+		<h2 class="text-center">Наше меню</h2>
+		<!-- Категория "Салаты" -->
+		<div class="menu-category">
+			<h3 class="text-center">Салаты</h3>
+			<div class="row">
+				<!-- Блюдо 1 -->
+				<div class="col-md-4">
+					<div class="menu-item">
+						<img src="https://via.placeholder.com/300" alt="Салат 1" class="img-fluid">
+						<h4>Салат 1</h4>
+						<p>Описание салата 1.</p>
+					</div>
+				</div>
+				<!-- Блюдо 2 -->
+				<div class="col-md-4">
+					<div class="menu-item">
+						<img src="https://via.placeholder.com/300" alt="Салат 2" class="img-fluid">
+						<h4>Салат 2</h4>
+						<p>Описание салата 2.</p>
+					</div>
+				</div>
+				<!-- Блюдо 3 -->
+				<div class="col-md-4">
+					<div class="menu-item">
+						<img src="https://via.placeholder.com/300" alt="Салат 3" class="img-fluid">
+						<h4>Салат 3</h4>
+						<p>Описание салата 3.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Категория "Напитки" -->
+		<div class="menu-category">
+			<h3 class="text-center">Напитки</h3>
+			<div class="row">
+				<!-- Блюдо 1 -->
+				<div class="col-md-4">
+					<div class="menu-item">
+						<img src="https://via.placeholder.com/300" alt="Напиток 1" class="img-fluid">
+						<h4>Напиток 1</h4>
+						<p>Описание напитка 1.</p>
+					</div>
+				</div>
+				<!-- Блюдо 2 -->
+				<div class="col-md-4">
+					<div class="menu-item">
+						<img src="https://via.placeholder.com/300" alt="Напиток 2" class="img-fluid">
+						<h4>Напиток 2</h4>
+						<p>Описание напитка 2.</p>
+					</div>
+				</div>
+				<!-- Блюдо 3 -->
+				<div class="col-md-4">
+					<div class="menu-item">
+						<img src="https://via.placeholder.com/300" alt="Напиток 3" class="img-fluid">
+						<h4>Напиток 3</h4>
+						<p>Описание напитка 3.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Категория "Первые блюда" -->
+		<div class="menu-category">
+			<h3 class="text-center">Первые блюда</h3>
+			<div class="row">
+				<!-- Блюдо 1 -->
+				<div class="col-md-4">
+					<div class="menu-item">
+						<img src="https://via.placeholder.com/300" alt="Первое блюдо 1" class="img-fluid">
+						<h4>Первое блюдо 1</h4>
+						<p>Описание первого блюда 1.</p>
+					</div>
+				</div>
+				<!-- Блюдо 2 -->
+				<div class="col-md-4">
+					<div class="menu-item">
+						<img src="https://via.placeholder.com/300" alt="Первое блюдо 2" class="img-fluid">
+						<h4>Первое блюдо 2</h4>
+						<p>Описание первого блюда 2.</p>
+					</div>
+				</div>
+				<!-- Блюдо 3 -->
+				<div class="col-md-4">
+					<div class="menu-item">
+						<img src="https://via.placeholder.com/300" alt="Первое блюдо 3" class="img-fluid">
+						<h4>Первое блюдо 3</h4>
+						<p>Описание первого блюда 3.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Категория "Вторые блюда" -->
+		<div class="menu-category">
+			<h3 class="text-center">Вторые блюда</h3>
+			<div class="row">
+				<!-- Блюдо 1 -->
+				<div class="col-md-4">
+					<div class="menu-item">
+						<img src="https://via.placeholder.com/300" alt="Второе блюдо 1" class="img-fluid">
+						<h4>Второе блюдо 1</h4>
+						<p>Описание второго блюда 1.</p>
+					</div>
+				</div>
+				<!-- Блюдо 2 -->
+				<div class="col-md-4">
+					<div class="menu-item">
+						<img src="https://via.placeholder.com/300" alt="Второе блюдо 2" class="img-fluid">
+						<h4>Второе блюдо 2</h4>
+						<p>Описание второго блюда 2.</p>
+					</div>
+				</div>
+				<!-- Блюдо 3 -->
+				<div class="col-md-4">
+					<div class="menu-item">
+						<img src="https://via.placeholder.com/300" alt="Второе блюдо 3" class="img-fluid">
+						<h4>Второе блюдо 3</h4>
+						<p>Описание второго блюда 3.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Подвал -->
+	<footer class="footer text-center">
+		<div class="container">
+			<p class="mb-1">© 2024 Кафе "Нектар". Все права защищены.</p>
+			<div>
+				<a href="#">Facebook</a>
+				<a href="#">Instagram</a>
+				<a href="#">Twitter</a>
+			</div>
+		</div>
+	</footer>
+
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

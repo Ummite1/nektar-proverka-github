@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>О нас - Кафе "Нектар"</title>
+	<link rel="icon" href="https://via.placeholder.com/30" type="image/x-icon">
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+	<style>
+		body {
+			font-family: 'Arial', sans-serif;
+			background-color: #f4f4f9;
+			color: #333;
+			min-height: 1080px;
+			display: flex;
+			flex-direction: column;
+		}
+		.navbar {
+			background-color: #5d4037;
+		}
+		.navbar-brand, .nav-link {
+			color: #fff !important;
+		}
+		.navbar-brand:hover, .nav-link:hover {
+			color: #ffeb3b !important;
+		}
+		.about-section {
+			padding: 50px 0;
+			flex: 1;
+		}
+		.about-section h2 {
+			color: #5d4037;
+			margin-bottom: 30px;
+		}
+		.team-section {
+			padding: 50px 0;
+		}
+		.team-section h2 {
+			color: #5d4037;
+			margin-bottom: 30px;
+		}
+		.team-member {
+			margin-bottom: 30px;
+		}
+		.team-member img {
+			width: 100%;
+			height: auto;
+		}
+		.footer {
+			background-color: #5d4037;
+			color: #fff;
+			padding: 20px 0;
+		}
+		.footer a {
+			color: #ffeb3b;
+			margin: 0 15px;
+		}
+		.footer a:hover {
+			color: #fff;
+		}
+	</style>
+</head>
+<body>
+	<!-- Шапка -->
+	<nav class="navbar navbar-expand-lg navbar-dark">
+		<a class="navbar-brand" href="index.html">
+			<img src="https://via.placeholder.com/30" alt="Логотип" style="height: 30px; margin-right: 10px;">
+			Кафе "Нектар"
+		</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNav">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="index.html">Главная</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="menu.html">Меню</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="about.html">О нас</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="contact.html">Контакты</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+	<!-- О нас -->
+	<div class="container about-section">
+		<h2 class="text-center">О нас</h2>
+		<div class="row">
+			<div class="col-md-6">
+				<img src="https://via.placeholder.com/600x400" alt="О нас" class="img-fluid">
+			</div>
+			<div class="col-md-6">
+				<p>Кафе "Нектар" - это уютное место, где вы можете насладиться вкусными блюдами и приятной атмосферой. Мы гордимся тем, что предлагаем нашим гостям разнообразное меню, включающее в себя как классические блюда, так и авторские шедевры от нашего шеф-повара.</p>
+				<p>Наше кафе открылось в 2024 году и с тех пор завоевало любовь и доверие наших гостей. Мы тщательно подбираем ингредиенты, чтобы каждое блюдо было свежим и вкусным. Наши повара вкладывают душу в каждое блюдо, чтобы вы могли наслаждаться каждым моментом, проведенным у нас.</p>
+				<p>Мы рады приветствовать вас в нашем кафе и надеемся, что вы станете нашими постоянными гостями. Приходите к нам с семьей и друзьями, чтобы насладиться вкусной едой и приятной атмосферой.</p>
+				<p>Мы также предлагаем услуги кейтеринга и организации мероприятий. Если у вас есть особый повод, мы с радостью поможем сделать его незабываемым.</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- Команда -->
+	<div class="container team-section">
+		<h2 class="text-center">Наша команда</h2>
+		<div class="row">
+			<div class="col-md-4 team-member">
+				<img src="https://via.placeholder.com/300x300" alt="Шеф-повар Иван" class="img-fluid rounded-circle">
+				<h4 class="text-center mt-3">Иван Иванов</h4>
+				<p class="text-center">Шеф-повар</p>
+			</div>
+			<div class="col-md-4 team-member">
+				<img src="https://via.placeholder.com/300x300" alt="Повар-универсал" class="img-fluid rounded-circle">
+				<h4 class="text-center mt-3">Анна Смирнова</h4>
+				<p class="text-center">Повар-универсал</p>
+			</div>
+			<div class="col-md-4 team-member">
+				<img src="https://via.placeholder.com/300x300" alt="Официант Олег" class="img-fluid rounded-circle">
+				<h4 class="text-center mt-3">Олег Петров</h4>
+				<p class="text-center">Официант</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- Подвал -->
+	<footer class="footer text-center">
+		<div class="container">
+			<p class="mb-1">© 2024 Кафе "Нектар". Все права защищены.</p>
+			<div>
+				<a href="#">Facebook</a>
+				<a href="#">Instagram</a>
+				<a href="#">Twitter</a>
+			</div>
+		</div>
+	</footer>
+
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
